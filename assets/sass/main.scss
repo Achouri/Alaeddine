@@ -1232,7 +1232,7 @@
 		.content {
 			@include vendor('transform', 'translate(0,0)');
 			@include vendor('transition', 'transform 1s ease, opacity 1s ease');
-			background: rgba(23, 24, 32, 0.90);
+			background: rgba(23, 24, 32, 0.6);
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
