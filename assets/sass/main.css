@@ -3030,9 +3030,7 @@ body.landing .dropotron.level-0 {
 }
 
 #header {
-  background: rgba(39, 40, 51, 0.965);
-  -webkit-box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
-          box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+  background: transparent;
   cursor: default;
   height: 3.5em;
   left: 0;
@@ -3050,6 +3048,7 @@ body.landing .dropotron.level-0 {
   margin: 0;
   position: absolute;
   top: 0;
+  display: none;
 }
 
 #header nav {
@@ -3243,6 +3242,9 @@ body.is-touch #banner {
   body, input, select, textarea {
     font-size: 13pt;
   }
+  .title img {
+    display: none;
+  }
   .spotlight.top .content {
     padding: 5.1em 0 3.1em 0;
   }
@@ -3266,6 +3268,10 @@ body.is-touch #banner {
   /* Basic */
   body, input, select, textarea {
     font-size: 11.5pt;
+  }
+  /* Logo */
+  .title img {
+    display: none;
   }
   /* Spotlight */
   .spotlight.top .content {
@@ -3305,6 +3311,10 @@ body.is-touch #banner {
   /* Basic */
   body, input, select, textarea {
     font-size: 12pt;
+  }
+  /* Logo */
+  .title img {
+    display: none;
   }
   /* Spotlight */
   .spotlight {
@@ -3396,6 +3406,10 @@ body.is-touch #banner {
   h4 {
     font-size: 1em;
   }
+  /* Logo */
+  .title img {
+    display: none;
+  }
   /* Section/Article */
   header p br {
     display: none;
@@ -3485,12 +3499,12 @@ body.is-touch #banner {
     top: 0;
     width: 100%;
     z-index: 10001;
-    background: #272833;
+    background: transparent;
     -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
             box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
   }
   #titleBar .title {
-    color: #ffffff;
+    color: transparent;
     display: block;
     font-weight: 300;
     height: 44px;
@@ -3554,7 +3568,7 @@ body.is-touch #banner {
     top: 0;
     width: 275px;
     z-index: 10002;
-    background: #181920;
+    background: transparent;
     padding: 0.75em 1.25em;
   }
   #navPanel .link {
@@ -3622,6 +3636,10 @@ body.is-touch #banner {
   }
   body, input, select, textarea {
     font-size: 12pt;
+  }
+  /* Logo */
+  .title img {
+    display: none;
   }
   /* Button */
   input[type="submit"],
