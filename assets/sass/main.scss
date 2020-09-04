@@ -1154,6 +1154,15 @@
 		color: #ffffff;
 		font-weight: 700;
 	}
+	h2{
+		margin: 0em;
+	}
+	.major{
+		margin: 0 0 2em 0;
+	}
+	p{
+		margin: 0em;
+	}
 }
 /* Spotlight */
 
@@ -1551,6 +1560,7 @@
 				li {
 					display: inline-block;
 					margin-left: 1em;
+					color: white;
 
 					a, span {
 						border: 0;
@@ -2087,7 +2097,6 @@
 				width: 100%;
 				z-index: _misc(z-index-base) + 1;
 				background: transparent;
-				box-shadow: 0 0.125em 0.125em 0 rgba(0,0,0,0.125);
 
 				.title {
 					color: transparent;

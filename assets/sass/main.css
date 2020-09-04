@@ -2591,6 +2591,18 @@ input[type="button"]:disabled,
   font-weight: 700;
 }
 
+#four h2 {
+  margin: 0em;
+}
+
+#four .major {
+  margin: 0 0 2em 0;
+}
+
+#four p {
+  margin: 0em;
+}
+
 /* Spotlight */
 .action {
   display: inline;
@@ -3064,6 +3076,7 @@ body.landing .dropotron.level-0 {
 #header nav ul li {
   display: inline-block;
   margin-left: 1em;
+  color: white;
 }
 
 #header nav ul li a, #header nav ul li span {
@@ -3500,8 +3513,6 @@ body.is-touch #banner {
     width: 100%;
     z-index: 10001;
     background: transparent;
-    -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
-            box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
   }
   #titleBar .title {
     color: transparent;
